@@ -18,6 +18,7 @@ modelos_disponibles = ["MobileNetV2 without weights", "Custom CNN"]
 # interface configuration
 st.title("🧥 Clothes clasification - Fashion MNIST 👕👖👟")
 st.write("Select a model and upload an image to classify the type of clothing.")
+st.write("### T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat','Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle boot")
 st.write("The models were trained with the Fashion MNIST dataset.")
 st.write("#### MobileNetV2 without weights = 82.98% accuracy")   # Accuracy del modelo
 st.write("#### Custom CNN =  91.07% accuracy")   # Accuracy del modelo
