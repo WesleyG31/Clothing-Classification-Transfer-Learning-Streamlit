@@ -1,0 +1,16 @@
+How to install TensorFlow in Python on Windows for Beginners
+
+https://www.youtube.com/watch?v=0w-D6YaNxk8
+
+
+
+
+How to Install TensorFlow GPU on Windows 11 | GPU Setup on Windows | TensorFlow GPU Setup
+
+https://www.youtube.com/watch?v=QUjtDIalh0k
+
+
+
+Tensorflow (GPU/CUDA) installation (Updated July 2024). Unable to convert function... error fix.
+
+https://www.youtube.com/watch?v=J9TX-utxQYQ
