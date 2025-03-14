@@ -3,7 +3,7 @@
 [![Streamlit App](https://img.shields.io/badge/Streamlit-Live_App-red?style=for-the-badge&logo=streamlit)](https://clothing-classification-transfer-learning-app-jy3mmkhzjd5suvos.streamlit.app/)
 [![GitHub](https://img.shields.io/github/stars/WesleyG31/Clothing-Classification-Transfer-Learning-Streamlit?style=for-the-badge&logo=github)](https://github.com/WesleyG31/Clothing-Classification-Transfer-Learning-Streamlit)
 
-🔍 **Classify clothing images using Transfer Learning models** such as **MobileNetV2, ResNet50, and EfficientNetB0**.  
+🔍 **Classify clothing images using Transfer Learning models** such as **MobileNetV2, ResNet50, ResNet50V2, EfficientNetB0 and CustomCNN**.  
 💡 **Trained on the Fashion MNIST dataset** and deployed with **Streamlit** for an interactive experience.
 
 ---
@@ -19,7 +19,7 @@
 
 ## 📌 **Features**
 ✅ **Transfer Learning with TensorFlow**: Optimized pre-trained models for classification.  
-✅ **Available Models**: MobileNetV2, ResNet50, EfficientNetB0.  
+✅ **Available Models**: MobileNetV2, ResNet50, ResNet50V2, EfficientNetB0 and CustomCNN  
 ✅ **Interactive UI** with **Streamlit**.  
 ✅ **Image Upload**: Classify any clothing image.  
 ✅ **Confidence Score**: Displays the probability for each class.  
@@ -29,9 +29,10 @@
 ## 📂 **Project Structure**
 ```
 📦 Clothing-Classification-Transfer-Learning-Streamlit
-│-- 📂 models/                 # Pre-trained models in .h5 format
-│-- 📂 assets/                 # Images for the README and demo
-│-- 📜 app.py                   # Main Streamlit app script
+│-- 📂 models/                  # Pre-trained models in .h5 format
+│-- 📂 assets/                  # Images for the README and demo
+│-- 📜 demo_streamlit.py        # Main Streamlit app script
+│-- 📜 demo_streamlit_local.py  # Local Streamlit app script
 │-- 📜 requirements.txt         # Required dependencies
 │-- 📜 README.md                # Project documentation
 ```
@@ -52,7 +53,7 @@ pip install -r requirements.txt
 
 ### 3️⃣ **Run the Application**
 ```bash
-streamlit run app.py
+streamlit run demo_streamlit_local.py
 ```
 
 📌 **Open your browser at** `http://localhost:8501/` and upload an image to classify.
@@ -90,7 +91,7 @@ If you want to deploy your own version on **Streamlit Cloud**, follow these step
 
 1️⃣ **Upload your code to GitHub**  
 2️⃣ **Go to** [Streamlit Cloud](https://share.streamlit.io/)  
-3️⃣ **Connect your repository** and select `app.py`  
+3️⃣ **Connect your repository** and select `demo_streamlit.py`  
 4️⃣ **Click "Deploy" and you’re live!** 🎉  
 
 ---
