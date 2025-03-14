@@ -3,14 +3,13 @@ import tensorflow as tf
 import numpy as np
 from PIL import Image
 
-
 # Load the model   
 @st.cache_resource
 def cargar_modelo(modelo_seleccionado):
     if modelo_seleccionado == "MobileNetV2 without weights":
-        return tf.keras.models.load_model("models/model_MobileNetV2_1.h5")
+        return tf.keras.models.load_model("C:\Todos mis documentos\Clothing Classification with Fashion MNIST and Transfer Learning\models\model_MobileNetV2_1.h5")
     elif modelo_seleccionado == "Custom CNN":
-        return tf.keras.models.load_model("models/model_custom_cnn.h5")
+        return tf.keras.models.load_model("C:\Todos mis documentos\Clothing Classification with Fashion MNIST and Transfer Learning\models\model_custom_cnn.h5")
 
 # Models available
 modelos_disponibles = ["MobileNetV2 without weights", "Custom CNN"]
